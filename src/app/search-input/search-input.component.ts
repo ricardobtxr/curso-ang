@@ -6,7 +6,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 })
 export class SearchInputComponent {
 
-  @Input() label = 'Search';
+  @Input() label = 'Filtrar';
   @Output() search = new EventEmitter<string>();
 
   onSearch(term: string) {

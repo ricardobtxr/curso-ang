@@ -5,11 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
 })
 export class AppComponent {
-  title = 'Tour of Heroes';
+  title = 'do Leite';
 
   navItems: { path: string; text: string }[] = [
-    { path: '/dashboard', text: 'Dashboard' },
-    { path: '/heroes', text: 'Heroes' },
+    { path: '/animais', text: 'Animais' },
   ];
 
   constructor() {
