@@ -26,12 +26,15 @@
         [disabled]="!animal.nome.trim() || !animal.numero"
         (click)="save()"
       >
-        Save
+        Salvar
       </button>
 
       <button class="btn btn-secondary" type="button" (click)="goBack()">
-        Back
+        Voltar
       </button>
+
+      <app-inseminacoes [inseminacoes]="animal.inseminacoes"></app-inseminacoes>
+
     </div>
   </div>
 </div>

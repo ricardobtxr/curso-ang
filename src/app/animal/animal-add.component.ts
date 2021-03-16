@@ -9,7 +9,7 @@ import { Location } from '@angular/common';
 })
 export class AnimalAddComponent {
 
-  animal: Animal = {id: null, nascimento: null, nome: '', numero: null};
+  animal: Animal = {id: null, nascimento: null, nome: '', numero: null, inseminacoes: null};
 
   constructor(
     private location: Location,

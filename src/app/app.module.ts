@@ -17,6 +17,7 @@ import { AnimalAddComponent } from './animal/animal-add.component';
 import { AnimalFilterPipe } from './animal/animal-filter.pipe';
 import { AnimalSearchComponent } from './animal/animal-search.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { InseminacoesComponent } from './inseminacao/inseminacoes.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AnimalAddComponent,
     AnimalFilterPipe,
     AnimalSearchComponent,
+    InseminacoesComponent,
   ],
   imports: [
     BrowserModule, FormsModule, AppRoutingModule, NgbCollapseModule, HttpClientModule, NgbModule,
