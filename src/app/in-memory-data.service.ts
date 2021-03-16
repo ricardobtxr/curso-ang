@@ -4,6 +4,7 @@ import { Animal } from './animal/animal.model';
 @Injectable({
   providedIn: 'root'
 })
+
 export class InMemoryDataService implements InMemoryDataService {
 
   createDb() {
